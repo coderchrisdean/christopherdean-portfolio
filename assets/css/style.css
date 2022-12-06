@@ -1,0 +1,18 @@
+/* set background to dark, with white text */
+body {
+  background-color: #333;
+  color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+.grid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
