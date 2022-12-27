@@ -4,87 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of HTML Page -->
     <title>Christopher Dean: Full Stack Web Developer</title>
+    <!-- Linked Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+  <!-- Body of HTML -->
   <body>
-    <header>
-      <div>
+    
+    <header class="card">
+        <div>
+          <img src="./assets/images/CDeanTransparent.png">
+        </div>
+        <div>
         <h1>Christopher Dean</h1>
-        <h2>Full Stack Web Developer & Software Enginner</h2>
-      </div>
-      <nav>
-        <div class="container-links">
-          <a href="./index.html">Home </a>
-        </div>
-        <div class="container-links">
-          <a href="#bio">About </a>
-        </div>
-        <div class="container-links">
-          <a href="#latest=projects">Projects </a>
-        </div>
-        <div class="container-links">
-          <a href="#contact-information">Contact </a>
-        </div>
-      </nav>
+        <h2>Full Stack Web-Developer</h2>
+        <hr />
+        
+        <br />
+        <nav>
+          <div class="nav">
+            <div>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            </div>
+          </div>
+        </nav>
+      
     </header>
-
-    <main id="container" class="grid">
-      <!-- Aside Titles to coincide with Right Column Elements -->
-      <!-- Left Column -->
-      <aside class="column-left">
-        <div id="about">
-            <p>About</p>
+    <main>
+      <div class="container">
+        <div class="first-column">
+          <section id="projects">
+            
+            <h2>About</h2>
+            <div class = "second-column">
+            <p>
+              Christopher Dean is a professional with a diverse background in
+              customer service, management, real estate, and financial services.
+              During the pandemic, Christopher took the opportunity to explore the
+              tech field and enrolled in a coding bootcamp at UC Berkeley.
+            </p>
+            <p>
+              Christopher is passionate about using technology to be creative and
+              challenge himself. He is a dedicated and hardworking professional
+              who always gives his best effort. He has a strong work ethic and is
+              committed to staying up to date with the latest industry trends and
+              developments.
+            </p>
+            <p>
+              In his free time, Christopher enjoys hiking, traveling, and reading.
+              He is also an avid music fan and enjoys attending concerts and
+              festivals whenever he can. He is a well-rounded individual who is
+              always looking for new ways to grow and learn.
+            </p>
+          </div>
+          </section>
+            <h2>Projects</h2>
+            <!-- Add project cards here -->
+          </section>
+          <section id="about">
+          <section id="contact">
+            <h2>Contact</h2>
+            <!-- Add contact form or information here -->
+          </section>
         </div>
-        <p id="latest-projects">Latest Projects</p>
-        <p id="contact-information">Contact Information</p>
-      </aside>
-
-      <section class="column-right">
-        <!-- Right Column -->
-        <article id="bio">
-          <p>
-            Christopher Dean is a professional with a diverse background in
-            customer service, management, real estate, and financial services.
-            During the pandemic, Christopher took the opportunity to explore the
-            tech field and enrolled in a coding bootcamp at UC Berkeley.
-          </p>
-          <p>
-            Christopher is passionate about using technology to be creative and
-            challenge himself. He is a dedicated and hardworking professional
-            who always gives his best effort. He has a strong work ethic and is
-            committed to staying up to date with the latest industry trends and
-            developments.
-          </p>
-          <p>
-            In his free time, Christopher enjoys hiking, traveling, and reading.
-            He is also an avid music fan and enjoys attending concerts and
-            festivals whenever he can. He is a well-rounded individual who is
-            always looking for new ways to grow and learn.
-          </p>
-        </article>
-        <!-- Latest Projects -->
-        <article class="latest-projects">
-            <!-- Featured Project - Larger Than All The Others -->
-            <section id="featurd-project">
-                <div id="main-image">
-                <img id="main" src="https://source.unsplash.com/random">
-                </div>
-            </section>
-            <!-- 3 Projects Nested underneath the main project -->
-            <section class="other-projects">
-                <div id="project-1">
-                    <img id="p-1" src="https://source.unsplash.com/random">
-                </div>
-                <div id="project-2">
-                    <img id="p-2" src="https://source.unsplash.com/random">
-                </div>
-                <div id="project-3">
-                    <img id="p-3" src="https://source.unsplash.com/random">
-                </div>
-            </section>
-        </article>
-      </section>
+      </div>
     </main>
+    <footer>
+      <!-- Add footer content here -->
+    </footer>
   </body>
 </html>
