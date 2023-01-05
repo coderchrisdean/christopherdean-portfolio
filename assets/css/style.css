@@ -48,18 +48,14 @@ nav a:hover {
 main {
   /* display: grid;
   grid-template-columns: 25% 75%; */
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1em;
 }
 
-section {
-  margin: 2em 0;
-}
 
-h2 {
-  margin: 0.5em 0;
-}
+
+
 
 footer {
   text-align: center;
@@ -78,8 +74,11 @@ footer {
 }
 .card img {
   
-    max-width: 250px; /* Resizes the image to a maximum of 100px in width */
+    max-width: 250px; /* Resizes the image to a maximum of 250px in width */
 
+}
+.img-box img {
+  max-width 50%;
 }
 
 .container {
